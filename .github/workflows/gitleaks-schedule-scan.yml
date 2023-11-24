@@ -6,7 +6,7 @@ name: gitleaks-schedule-scan
 
 on:
   schedule:
-    - cron: '60 17 * * 3'
+    - cron: '59 17 * * 3'
   workflow_dispatch:
 jobs:
   gitleaks:
