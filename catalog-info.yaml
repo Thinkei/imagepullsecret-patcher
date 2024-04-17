@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: imagepullsecret-patcher
+  tags:
+    - external
+    - fork
+    - public
+    - go
+  annotations:
+    github.com/project-slug: Thinkei/imagepullsecret-patcher
+spec:
+  type: service
+  system: core-technology
+  lifecycle: production
